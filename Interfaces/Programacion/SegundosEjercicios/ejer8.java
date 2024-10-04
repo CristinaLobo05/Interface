@@ -1,4 +1,4 @@
-package Interfaces;
+package SegundosEjercicios;
 
 public class ejer8 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Interfaces;
+package Ejercicios;
 
 import java.awt.EventQueue;
 
@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-public class EJERCICIO1 extends JFrame {
+public class ejercicio1 extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -18,7 +18,7 @@ public class EJERCICIO1 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					EJERCICIO1 frame = new EJERCICIO1();
+					ejercicio1 frame = new ejercicio1();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -30,7 +30,7 @@ public class EJERCICIO1 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public EJERCICIO1() {
+	public ejercicio1() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();

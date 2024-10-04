@@ -1,8 +1,8 @@
-package Interfaces;
+package PrimerosEjercicios;
 
 public class act10 {
     public static void main(String[] args) {
-        double precio = 100.0;  
+        double precio = 120.0;  
         double iva = 21.0;   
 
         double precioFinal = precio + (precio * iva / 100);

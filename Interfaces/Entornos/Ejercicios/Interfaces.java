@@ -1,4 +1,4 @@
-package Interfaces;
+package Ejercicios;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;

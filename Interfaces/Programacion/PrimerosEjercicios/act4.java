@@ -1,4 +1,4 @@
-package Interfaces;
+package PrimerosEjercicios;
 
 public class act4 {
 

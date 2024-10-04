@@ -1,4 +1,4 @@
-package Interfaces;
+package PrimerosEjercicios;
 
 public class act8 {
     public static void main(String[] args) {

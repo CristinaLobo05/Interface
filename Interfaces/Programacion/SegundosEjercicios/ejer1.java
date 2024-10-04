@@ -1,4 +1,4 @@
-package Interfaces;
+package SegundosEjercicios;
 
 import java.util.Scanner;
 

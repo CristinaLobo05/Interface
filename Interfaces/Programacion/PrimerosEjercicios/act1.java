@@ -1,9 +1,11 @@
-package Interfaces;
+package PrimerosEjercicios;
 
 public class act1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		
+		
 		String texto = "texto";
 		int numero = 3;
 		double numdecimales = 2.5;

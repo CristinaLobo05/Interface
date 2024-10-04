@@ -1,4 +1,5 @@
-package Interfaces;
+package Ejercicios;
+
 
 import java.awt.EventQueue;
 
