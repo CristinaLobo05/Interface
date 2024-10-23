@@ -12,9 +12,12 @@ public class ejer7 {
         
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = random.nextInt(100); 
+            
 
          Arrays.sort(numeros);
 
         System.out.println("Array ordenado: " + Arrays.toString(numeros));
     }
-}
+    }
+    }
+
