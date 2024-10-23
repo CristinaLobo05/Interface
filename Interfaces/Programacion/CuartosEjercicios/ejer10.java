@@ -1,6 +1,7 @@
 package CuartosEjercicios;
 
 public class ejer10 {
+	
     public static void main(String[] args) {
         int[] numeros = {1, 2, 3, 4, 5};
 
@@ -15,6 +16,7 @@ public class ejer10 {
         System.out.println("Array después de la rotación:");
         for (int num : numeros) {
             System.out.print(num + " ");
+            
         }
     }
 }
