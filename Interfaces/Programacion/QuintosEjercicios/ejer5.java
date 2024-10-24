@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class ejer5 {
     public static void main(String[] args) {
-        ArrayList<Integer> numeros = new ArrayList<>(); // Crear un ArrayList de enteros
+        ArrayList<Integer> numeros = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
