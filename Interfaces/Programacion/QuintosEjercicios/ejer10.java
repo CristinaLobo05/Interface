@@ -10,7 +10,6 @@ public class ejer10 {
         ArrayList<Integer> pares = new ArrayList<>();
         ArrayList<Integer> impares = new ArrayList<>();
 
-        // Ingresar números en el ArrayList
         System.out.println("Introduce números enteros (escribe '0' para detener): ");
         int num;
         do {
@@ -20,8 +19,7 @@ public class ejer10 {
             }
         } while (num != 0);
 
-        // Separar los números en pares e impares
-        for (int numero : numeros) {
+       for (int numero : numeros) {
             if (numero % 2 == 0) {
                 pares.add(numero);
             } else {
@@ -29,7 +27,6 @@ public class ejer10 {
             }
         }
 
-        // Imprimir los resultados
         System.out.println("Números pares: " + pares);
         System.out.println("Números impares: " + impares);
     }

@@ -9,7 +9,6 @@ public class ejer9 {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> numeros = new ArrayList<>();
 
-        // Ingresar números en el ArrayList
         System.out.println("Introduce números enteros (escribe '0' para detener): ");
         int num;
         do {
@@ -19,10 +18,8 @@ public class ejer9 {
             }
         } while (num != 0);
 
-        // Invertir el ArrayList
         Collections.reverse(numeros);
 
-        // Imprimir el ArrayList invertido
-        System.out.println("ArrayList invertido: " + numeros);
+       System.out.println("ArrayList invertido: " + numeros);
     }
 }
