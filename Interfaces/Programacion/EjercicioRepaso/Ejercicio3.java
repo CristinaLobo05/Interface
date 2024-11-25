@@ -10,6 +10,8 @@ public class Ejercicio3 {
         
         System.out.print("Introduce la matrícula (formato XXXX XXX): ");
         String matricula = scanner.nextLine().toUpperCase().trim();
+       
+        
         
         String[] partes = matricula.split(" ");
         int numero = Integer.parseInt(partes[0]); 
