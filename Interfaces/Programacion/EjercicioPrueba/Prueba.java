@@ -8,16 +8,14 @@ public class Prueba {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
 
-        // Crear datos predefinidos de películas
+        
         ArrayList<Pelicula> peliculas = new ArrayList<>();
         peliculas.add(new Pelicula("Titanic", "Romance", 1997, 195));
         peliculas.add(new Pelicula("Inception", "Ciencia Ficción", 2010, 148));
 
-        // Crear datos predefinidos de series y temporadas
         ArrayList<Serie> series = new ArrayList<>();
         
-        // Crear serie 1: Breaking Bad
-        Serie serie1 = new Serie("Breaking Bad", "Drama");  // Usamos el constructor de 2 parámetros
+        Serie serie1 = new Serie("Breaking Bad", "Drama");  
         Temporada temp1 = new Temporada(1);
         temp1.addCapitulo(new Capitulo(1, 58));
         temp1.addCapitulo(new Capitulo(2, 47));
@@ -28,17 +26,15 @@ public class Prueba {
         temp2.addCapitulo(new Capitulo(2, 52));
         serie1.addTemporada(temp2);
 
-        series.add(serie1); // Añadir la serie a la lista de series
+        series.add(serie1); 
 
-        // Crear serie 2: Stranger Things
-        Serie serie2 = new Serie("Stranger Things", "Ciencia Ficción");  // Usamos el constructor de 2 parámetros
+        Serie serie2 = new Serie("Stranger Things", "Ciencia Ficción");
         Temporada temp3 = new Temporada(1);
         temp3.addCapitulo(new Capitulo(1, 60));
         temp3.addCapitulo(new Capitulo(2, 55));
         serie2.addTemporada(temp3);
 
-        series.add(serie2);  // Añadir la serie a la lista de series
-
+        series.add(serie2);  
         int opcion;
 
         do {
@@ -48,7 +44,7 @@ public class Prueba {
             System.out.println("3. Salir");
             System.out.print("Elige una opción: ");
             opcion = leer.nextInt();
-            leer.nextLine(); // Limpiar buffer
+            leer.nextLine();
 
             switch (opcion) {
                 case 1:
@@ -58,7 +54,7 @@ public class Prueba {
                     }
                     System.out.print("Selecciona una película: ");
                     int peliSeleccionada = leer.nextInt();
-                    leer.nextLine(); // Limpiar buffer
+                    leer.nextLine(); 
                     if (peliSeleccionada > 0 && peliSeleccionada <= peliculas.size()) {
                         Pelicula pelicula = peliculas.get(peliSeleccionada - 1);
                         System.out.println("Has seleccionado: " + pelicula.getNombre());
@@ -77,7 +73,7 @@ public class Prueba {
                     }
                     System.out.print("Selecciona una serie: ");
                     int serieSeleccionada = leer.nextInt();
-                    leer.nextLine(); // Limpiar buffer
+                    leer.nextLine(); 
                     if (serieSeleccionada > 0 && serieSeleccionada <= series.size()) {
                         Serie serie = series.get(serieSeleccionada - 1);
                         System.out.println("Has seleccionado: " + serie.getNombre());
