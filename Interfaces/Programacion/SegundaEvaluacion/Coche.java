@@ -50,7 +50,6 @@ public class Coche {
     }
 
     public void setMarca(String string) {
-        // TODO Auto-generated method stub
 
     }
 
