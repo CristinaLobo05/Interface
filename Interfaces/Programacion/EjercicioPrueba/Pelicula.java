@@ -23,6 +23,7 @@ public class Pelicula {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+    
 
     public String getGenero() {
         return genero;
